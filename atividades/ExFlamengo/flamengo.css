@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg,#0e0e0e, #e40202, #0e0e0e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-family: 'Rubik 80s Fade';
+}
+
+#nomecliente {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.txtdegrade {
+    color: white;
+
+    letter-spacing: 2px;
+    font-size: 36px;
+
+    background: linear-gradient(90deg, #695322, #EFE2AB, #695322);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
